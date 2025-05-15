@@ -1,0 +1,43 @@
+@use "@/app/styles/function" as *;
+
+.hero {
+
+  width: 100%;
+
+  .hero_bg {
+    z-index: -3;
+    object-fit: cover;
+  }
+
+  .hero_content {
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    padding: size(80px) size(20px);
+  }
+
+  .hero_title {
+    font-family: var(--font-playfair);
+    font-size: clamp(60px, calc(60px + (120 - 60) * ((100vw - 360px) / (1320 - 360))), 110px);
+    line-height: clamp(60px, calc(60px + (120 - 60) * ((100vw - 360px) / (1320 - 360))), 110px);
+    color: var(--white);
+    margin-bottom: size(100px);
+    width: 90vw;
+  }
+
+  .hero_text {
+    font-family: var(--font-inter);
+    font-size: 30px;
+    font-weight: var(--font-weight-500);
+    color: var(--white);
+    margin-bottom: size(30px);
+  }
+
+  .hero_controls {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+  }
+}

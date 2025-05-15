@@ -1,0 +1,115 @@
+@use "@/app/styles/function" as *;
+
+.form_section {
+  padding: 110px 80px;
+  background: var(--color-900);
+}
+
+.form_header_text {
+  color: var(--color-100);
+}
+
+.form_header_btn {
+
+  max-width: 270px;
+}
+
+.form_header {
+  &:after {
+    display: none;
+  }
+}
+
+.form_container {
+  display: flex;
+
+  form {
+    width: 100%;
+    margin-left: 340px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+
+    .submit_btn {
+      max-width: 250px;
+      letter-spacing: -0.95px;
+      font-size: size(25px);
+      background: var(--color-300);
+      color: var(--color-800);
+      outline: 1px solid var(--color-300);
+
+      span {
+        background: var(--color-900);
+      }
+
+      svg {
+        color: var(--color-100);
+
+      }
+    }
+
+    .form_data {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 20px;
+
+      margin-bottom: size(30px);
+
+      span {
+        font-size: size(14px);
+        color: var(--color-100);
+      }
+    }
+
+    input, textarea {
+      background: transparent;
+      width: 100%;
+      border: none;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--color-100);
+      font-size: 30px;
+      color: var(--white);
+
+
+      &::placeholder {
+        font-size: 30px;
+
+
+      }
+    }
+
+    input {
+      padding: 10px 0 16px 0;
+    }
+
+    textarea {
+      height: 50px;
+      margin-top: 50px;
+      grid-column: span 2;
+    }
+
+  }
+
+}
+
+.checkbox_label {
+  margin-bottom: 30px;
+font-size: 20px;
+  span {
+    margin-left: 30px;
+    font-size: size(14px);
+  }
+
+  .checkbox_agree {
+    margin-right: 10px;
+    width: auto;
+
+  }
+
+  width: auto;
+
+  color: var(--color-100);
+
+
+}
+

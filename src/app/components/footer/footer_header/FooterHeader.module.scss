@@ -1,0 +1,69 @@
+@use "@/app/styles/function" as *;
+
+.footer_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer_header_logo, {
+  font-size: 50px;
+  font-family: var(--font-playfair);
+}
+
+.footer_header_subscribe {
+  width: 100%;
+  max-width: 600px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 30px;
+  label{
+    width: 100%;
+    position: relative;
+  }
+
+}
+
+.title {
+  font-size: 45px;
+  font-weight: 200;
+  letter-spacing: -1px;
+  font-family: var(--font-playfair);
+}
+
+
+.input {
+  display: block;
+  background-color: transparent;
+  border: none;
+  padding: 15px 15px 15px 0;
+  border-bottom: 1px solid var(--color-100);
+  width: 100%;
+
+  &::placeholder {
+    color: var(--color-400);
+    font-size: 18px;
+  }
+
+}
+
+.form_btn {
+  position: absolute;
+  bottom: 10px;
+  transform:translateY(-5px);
+  right: 0;
+  &:hover{
+    svg {
+   transform:scale(1.1);
+    }
+  }
+
+  svg {
+    color: var(--color-100);
+  }
+}

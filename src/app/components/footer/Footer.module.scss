@@ -1,0 +1,9 @@
+.footer{
+  color:var(--color-100);
+  background: var(--color-900);
+  font-family: var(--font-inter);
+  padding:110px 66px;
+  display:flex;
+  flex-direction: column;
+  row-gap: 50px;
+}

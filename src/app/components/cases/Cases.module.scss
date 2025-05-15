@@ -1,0 +1,47 @@
+@use "@/app/styles/function" as *;
+
+.cases{
+  background: var(--white);
+  padding:110px 66px;
+}
+
+.cases_content{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  .cases_list{
+width: 100%;
+    max-width: 870px;
+
+
+  }
+  .cases_item {
+    padding:15px;
+    border-bottom:1px solid var(--color-300);
+    position: relative;
+    &:after{
+      position:absolute;
+      content:'';
+      width:5px;
+      height:5px;
+      top:50%;
+      border-radius: 50%;
+      background-color:var(--black);
+      right:0;
+    }
+    h3 {
+      letter-spacing: .05rem;
+      font-family: var(--font-playfair);
+      color: var(--color-black);
+margin-bottom:20px;
+      font-size: 2.5rem;
+      font-weight: 500;
+      line-height: 1.2em;
+    }
+  }
+  .cases_item_desc{
+  font-family: Tahoma;
+    font-size: 1.4rem;
+  }
+}

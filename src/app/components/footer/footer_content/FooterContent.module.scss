@@ -1,0 +1,25 @@
+@use "@/app/styles/function" as *;
+.footer_content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  .footer_content_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    column-gap: 30px;
+  }
+  .footer_content_contact {
+    h4 {
+      font-family:var(--font-inter);
+      color: var(--color-300);
+      font-size: large;
+      font-weight: 400;
+      margin-bottom:30px;
+    }
+    display: flex;
+    flex-direction: row;
+    row-gap: 40px;
+    column-gap: 30px;
+  }
+}

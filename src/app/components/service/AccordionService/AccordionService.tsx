@@ -113,7 +113,7 @@ const AnimatedAccordionContent = ({ children }: { children: React.ReactNode }) =
     );
 };
 export const AccordionService = () => {
-    const [openValue, setOpenValue] = useState<string | null>(null);
+    const [openValue, setOpenValue] = useState<string |  undefined>( undefined);
 
     return (
         <div className={s.service_accordion}>
@@ -121,7 +121,7 @@ export const AccordionService = () => {
                 type="single"
                 collapsible
                 className={s.Root}
-                value={openValue}
+                value={openValue ?? undefined}
                 onValueChange={setOpenValue}
             >
                 {services.map((service) => {

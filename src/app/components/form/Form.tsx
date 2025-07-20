@@ -1,6 +1,6 @@
 "use client"
 import s from "./Form.module.scss";
-import {SectionHeader} from "@/app/components/SectionNote/SectionNote";
+
 import {BaseButton} from "@/app/components/button/BaseButton";
 import {useForm} from "react-hook-form";
 import {z} from "zod";

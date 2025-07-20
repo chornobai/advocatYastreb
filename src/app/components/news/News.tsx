@@ -1,6 +1,6 @@
 "use client"
 import s from "./News.module.scss"
-import {SectionHeader} from "@/app/components/SectionNote/SectionNote";
+
 import NewsBg from "@/app/ui/img/news_bg.jpg"
 import Image from "next/image";
 

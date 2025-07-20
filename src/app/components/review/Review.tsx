@@ -1,12 +1,11 @@
 "use client"
 import s from "./Review.module.scss"
-import {SectionHeader} from "@/app/components/SectionNote/SectionNote";
+
 import {Navigation} from 'swiper/modules';
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 
-import {BaseButton} from "@/app/components/button/BaseButton";
 import {IconComa} from "@/app/ui/icons/IconComa";
 import {ArrowRight} from "@/app/ui/icons/ArrowRight";
 import {ArrowLeft} from "@/app/ui/icons/ArrowLeft";

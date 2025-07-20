@@ -1,5 +1,5 @@
 import s from "./Cases.module.scss"
-import {SectionHeader} from "@/app/components/SectionNote/SectionNote";
+
 
 const casesData = [
     {

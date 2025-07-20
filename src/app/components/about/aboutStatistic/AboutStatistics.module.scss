@@ -2,6 +2,7 @@
 
 .about_statistics {
   display: flex;
+  padding: 0 30px;
   flex-direction: row;
   align-items: center;
   column-gap: 30px;
@@ -9,7 +10,7 @@
   width: 100%;
   align-self: flex-start;
   flex-shrink: 1;
-
+  grid-column: 1 / -1;
   font-family: var(--font-playfair), Tahoma sans-serif;
 
   li {

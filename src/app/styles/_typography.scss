@@ -1,0 +1,65 @@
+.header_main {
+
+}
+.header_section {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 70px;
+    margin: 0;
+    color: var(--color-900);
+    padding: 0;
+    font-family: var(--font-playfair);
+    letter-spacing: -1.8px;
+    grid-column: 2/-1;
+}
+.header_secondary {
+    letter-spacing: .0rem;
+    font-family: var(--font-playfair);
+    color: var(--color-900);
+    font-size: 2.5rem;
+    font-weight: 500;
+    line-height: 1.2em;
+
+
+}
+.header_common {
+    letter-spacing: -0.5px;
+    font-family: var(--font-playfair);
+    color: var(--color-black);
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 1.4em;
+}
+
+.special_text {
+    letter-spacing: -0.5px;
+    font-family: var(--font-playfair);
+    color: var(--color-900);
+    font-size: 1.7rem;
+    font-style: oblique;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.describe_text {
+    font-family: Tahoma, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+.common_text {
+    font-family:Tahoma, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+.common_text_small {
+    font-family:Tahoma, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+.notes_text {
+
+}

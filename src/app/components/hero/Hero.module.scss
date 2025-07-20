@@ -19,11 +19,13 @@
 
   .hero_title {
     font-family: var(--font-playfair);
-    font-size: clamp(60px, calc(60px + (120 - 60) * ((100vw - 360px) / (1320 - 360))), 110px);
-    line-height: clamp(60px, calc(60px + (120 - 60) * ((100vw - 360px) / (1320 - 360))), 110px);
+    font-size: clamp(60px, calc(60px + (120 - 60) * ((100vw - 360px) / (1320 - 360))), 180px);
+    line-height: clamp(60px, calc(60px + (120 - 60) * ((100vw - 360px) / (1320 - 360))), 160px);
     color: var(--white);
+    letter-spacing: -3;
     margin-bottom: size(100px);
-    width: 90vw;
+    width: 60vw;
+    font-weight:400;
   }
 
   .hero_text {

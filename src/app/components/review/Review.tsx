@@ -1,6 +1,6 @@
 "use client"
 import s from "./Review.module.scss"
-import {SectionHeader} from "@/app/components/sectionHeader/SectionHeader";
+import {SectionHeader} from "@/app/components/SectionNote/SectionNote";
 import {Navigation} from 'swiper/modules';
 import {Swiper, SwiperSlide} from "swiper/react";
 import "swiper/css";
@@ -18,12 +18,12 @@ export const Review = () => {
     return (
         <section className={s.review}>
             <div className={"container"}>
-                <SectionHeader
-                    className={s.review_header}
-                    classFor={s.review_header_name}
-                    name={<BaseButton className={s.review_btn} variant={"primary"} text={"Безкоштовна консультацiя"}/>}
-                    title={"Наші клієнти кажуть"}
-                />
+                {/*<SectionHeader*/}
+                {/*    className={s.review_header}*/}
+                {/*    classFor={s.review_header_name}*/}
+                {/*    name={<BaseButton className={s.review_btn} variant={"primary"} text={"Безкоштовна консультацiя"}/>}*/}
+                {/*    title={"Наші клієнти кажуть"}*/}
+                {/*/>*/}
 
                 <div className={s.review_slide}>
                     <IconComa className={s.slider_icon}/>

@@ -29,7 +29,7 @@ export const Hero = () => {
                 style={{ transform: `translateY(${offsetY * 0.5}px)` }}
             />
             <div className={s.hero_content}>
-                <p className={s.hero_text}>професійний захист ваших інтересів</p>
+                <p className={s.hero_text}>Ми — сила вашої правди.</p>
                 <h1 className={s.hero_title}>Ястребова та партнери</h1>
 <div className={s.hero_controls}>
                 <ButtonConnection variant={"primary"}/>

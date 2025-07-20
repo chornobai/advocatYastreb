@@ -1,6 +1,6 @@
 "use client"
 import s from "./Form.module.scss";
-import {SectionHeader} from "@/app/components/sectionHeader/SectionHeader";
+import {SectionHeader} from "@/app/components/SectionNote/SectionNote";
 import {BaseButton} from "@/app/components/button/BaseButton";
 import {useForm} from "react-hook-form";
 import {z} from "zod";
@@ -33,10 +33,10 @@ export const Form = () => {
     return (
         <section className={s.form_section}>
             <div className={"container"}>
-                <SectionHeader classFor={s.form_header} className={s.form_header_text}
-                    name={<BaseButton className={s.form_header_btn} variant={"primary"} text={"Безкоштовна консультацiя"}/>}
-                    title={"Зв'яжіться з нами"}
-                />
+                {/*<SectionHeader classFor={s.form_header} className={s.form_header_text}*/}
+                {/*    name={<BaseButton className={s.form_header_btn} variant={"primary"} text={"Безкоштовна консультацiя"}/>}*/}
+                {/*    title={"Зв'яжіться з нами"}*/}
+                {/*/>*/}
                 <div className={s.form_container}>
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <div className={s.form_data}>

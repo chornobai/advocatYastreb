@@ -1,5 +1,5 @@
 import s from "./Cases.module.scss"
-import {SectionHeader} from "@/app/components/sectionHeader/SectionHeader";
+import {SectionHeader} from "@/app/components/SectionNote/SectionNote";
 
 const casesData = [
     {
@@ -28,8 +28,8 @@ export const Cases = () => {
 
         <section className={s.cases}>
             <div className={"container"}>
-                <SectionHeader name={"Справи"}
-                               title={"Чудові результати для наших клієнтів"}/>
+                {/*<SectionHeader name={"Справи"}*/}
+                {/*               title={"Чудові результати для наших клієнтів"}/>*/}
                 <div className={s.cases_content}>
                 <ul className={s.cases_list}>
                     {casesData.map((item, i) => (<li key={i} className={s.cases_item}>

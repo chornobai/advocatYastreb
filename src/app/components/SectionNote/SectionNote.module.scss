@@ -1,10 +1,6 @@
 @use "@/app/styles/function" as *;
 
 .section_header {
-  display: grid;
-  grid-template-columns: 1fr 74%;
-  grid-column-gap: 70px;
-  padding-bottom: 110px;
 
   .section_name {
     font-size: size(15px);
@@ -28,14 +24,4 @@
     }
   }
 
-  .section_title {
-    font-size: size(60px);
-    font-weight: var(--font-weight-600);
-    line-height: size(70px);
-    margin: 0;
-    padding: 0;
-    font-family: var(--font-playfair);
-    letter-spacing: -1.8px;
-
-  }
 }

@@ -4,3 +4,8 @@
   max-width: 1300px;
 
 }
+.container_grid {
+  display: grid;
+  grid-template-columns: 30vw 1fr;
+  grid-row-gap: 60px;
+}
